@@ -283,7 +283,7 @@ p {
     row-gap: 48px;
 }
 
-.portfolio-list .list-item-wapper {
+.portfolio-list .list-item-wrapper {
     border: 1px solid #E7E9FC;
     border-top: none;
     padding: 32px 16px;
@@ -306,13 +306,10 @@ p {
 
 /* ================ PAGE FOOTER SECTION ================ */
 
-.page-footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .page-footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logotype {
