@@ -83,6 +83,7 @@ p {
     background-color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header-container {
@@ -93,6 +94,7 @@ p {
 
 .page-navigation {
     display: flex;
+    align-items: center;
 }
 
 
@@ -122,6 +124,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0 24px
 }
 
 .menu-link:hover, .menu-link:focus {
@@ -134,7 +137,7 @@ p {
 
 .contacts-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     justify-content: flex-end;
 }
 
