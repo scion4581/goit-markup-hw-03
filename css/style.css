@@ -57,7 +57,6 @@ p {
     padding-right: 15px;
 }
 
-
 .list {
     list-style-type: none;
 }
@@ -72,8 +71,21 @@ p {
 }
 
 .list-item-wapper {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
 
 /* ================ HEADER SECTION ================ */
 
@@ -212,6 +224,10 @@ p {
     gap: 24px;
 }
 
+.features-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 .features-list-title {
     text-align: left;
     margin-bottom: 8px;
@@ -242,6 +258,8 @@ p {
 
 .team-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-wrapper {
@@ -274,10 +292,12 @@ p {
     border-top: none;
 }
 
-
-
 .portfolio-title {
     margin-bottom: 72px;
+}
+
+.portfolio-list-item {
+
 }
 
 .portfolio-list-title {
