@@ -70,10 +70,6 @@ p {
     padding-bottom: 120px;
 }
 
-.list-item-wapper {
-    padding: 32px 0;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -262,8 +258,8 @@ p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-wrapper {
-    padding: 32px 16px;
+.team-list .list-item-wrapper {
+    padding: 32px 0;
 }
 
 .team-list-title {
@@ -290,14 +286,11 @@ p {
 .portfolio-list .list-item-wapper {
     border: 1px solid #E7E9FC;
     border-top: none;
+    padding: 32px 16px;
 }
 
 .portfolio-title {
     margin-bottom: 72px;
-}
-
-.portfolio-list-item {
-
 }
 
 .portfolio-list-title {
