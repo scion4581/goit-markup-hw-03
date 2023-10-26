@@ -163,9 +163,9 @@ p {
     padding-top: 188px;
 }
 
-.hero-container {
+/* .hero-container {
     text-align: center;
-}
+} */
 
 .main-title {
     font-size: 56px;
@@ -173,7 +173,7 @@ p {
     line-height: 1.07em;
     letter-spacing: 1.12px;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -188,10 +188,13 @@ p {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    display: inline-block;
+    display: block;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
