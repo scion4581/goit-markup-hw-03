@@ -307,7 +307,7 @@ p {
 /* ================ PAGE FOOTER SECTION ================ */
 
 .page-footer-container {
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -317,6 +317,9 @@ p {
 
 .footer-logotype {
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .footer-logotype .accent-color {
@@ -325,7 +328,6 @@ p {
 
 .page-footer-text {
     color: #F4F4FD;
-    margin-top: 17.5px;
     width: 264px;
 }
 
